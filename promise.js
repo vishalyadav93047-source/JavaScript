@@ -35,4 +35,25 @@
 //    }
     
 // })
-// console.log(mydata);
+// console.log(mydata); 
+
+
+const mydata = new Promise ((resolve, reject)=>{
+    let user = true;
+    if(user){
+        resolve("Welcom")
+    }else{
+        reject("plz logIn")
+    }
+})
+
+mydata.then((data)=>{
+    console.log(data);
+    
+}).catch((error)=>{
+    console.log(error);
+    
+}).finally(()=>{
+    console.log("Finally block");
+    
+})
