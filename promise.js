@@ -38,22 +38,33 @@
 // console.log(mydata); 
 
 
-const mydata = new Promise ((resolve, reject)=>{
-    let user = true;
-    if(user){
-        resolve("Welcom")
-    }else{
-        reject("plz logIn")
-    }
-})
+// const mydata = new Promise ((resolve, reject)=>{
+//     let user = true;
+//     if(user){
+//         resolve("Welcom")
+//     }else{
+//         reject("plz logIn")
+//     }
+// })
 
-mydata.then((data)=>{
-    console.log(data);
+// mydata.then((data)=>{
+//     console.log(data);
     
-}).catch((error)=>{
-    console.log(error);
+// }).catch((error)=>{
+//     console.log(error);
     
-}).finally(()=>{
-    console.log("Finally block");
+// }).finally(()=>{
+//     console.log("Finally block");
+    
+// })
+
+
+const receiveddata = fetch("https://fakestoreapi.com/products");
+
+receiveddata.then((data)=>{
+    console.log(data.json());
+    
+}).catch((err)=>{
+    console.log(err);
     
 })
