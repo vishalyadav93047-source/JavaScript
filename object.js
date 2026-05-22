@@ -72,7 +72,6 @@ const obj = {
     name: "Ram",
     roll_no: 12,
     sub: "MERN",
-
    add: {
         name: "mohan",
         roll_no: 11,
@@ -84,7 +83,6 @@ const obj = {
 //     console.log(key, obj[key]);
     
 // }
-
 const {name, roll_no, sub} = obj.add
 console.log(name);
 
