@@ -105,14 +105,12 @@
 
 function fetchUser(){
 return new Promise((resolve, reject )=>{
-
     setTimeout(()=>{
         resolve(
             fetch("https://jsonplaceholder.typicode.com/posts")
             
         )
     },3000)
-
 })
 }
 async function getdata(){
@@ -123,8 +121,7 @@ async function getdata(){
     console.log(data);
     }
     catch(err){
-        console.log(err);
-        
+        console.log(err);    
     }
 }
 getdata();
