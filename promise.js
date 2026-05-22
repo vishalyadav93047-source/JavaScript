@@ -59,12 +59,72 @@
 // })
 
 
-const receiveddata = fetch("https://fakestoreapi.com/products");
+// const receiveddata = fetch("https://fakestoreapi.com/products");
 
-receiveddata.then((data)=>{
-    console.log(data.json());
+// receiveddata.then((data)=>{
+//     console.log(data.json());
     
-}).catch((err)=>{
-    console.log(err);
+// }).catch((err)=>{
+//     console.log(err);
     
+// })
+
+
+
+
+// const receiveddata = fetch("https://fakestoreapi.com/products/1");
+
+// receiveddata.then((data)=>{
+//     console.log(data.json());
+    
+// }).catch((err)=>{
+//     console.log(err);
+    
+// })
+
+// function fetchUser(){
+// return new Promise((resolve, reject )=>{
+
+//     setTimeout(()=>{
+//         resolve(
+//             fetch("https://jsonplaceholder.typicode.com/posts")
+            
+//         )
+//     },3000)
+
+// })
+// }
+// async function getdata(){
+//     console.log("Leading ....... ");
+//     let user = await fetchUser();
+//     console.log(user.json());
+// }
+// getdata();
+
+
+
+function fetchUser(){
+return new Promise((resolve, reject )=>{
+
+    setTimeout(()=>{
+        resolve(
+            fetch("https://jsonplaceholder.typicode.com/posts")
+            
+        )
+    },3000)
+
 })
+}
+async function getdata(){
+    try{
+    console.log("Leading ....... ");
+    let user = await fetchUser();
+    let data = await user.json()
+    console.log(data);
+    }
+    catch(err){
+        console.log(err);
+        
+    }
+}
+getdata();
