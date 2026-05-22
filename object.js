@@ -78,10 +78,8 @@ const obj = {
         pincode: 121003,
    }
 }
-
 // for(let key in obj){
-//     console.log(key, obj[key]);
-    
+//     console.log(key, obj[key]);   
 // }
 const {name, roll_no, sub} = obj.add
 console.log(name);
