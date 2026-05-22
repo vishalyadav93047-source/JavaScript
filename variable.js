@@ -39,12 +39,9 @@
 
 
 
-
-
 // var  name = "pramod"
 // var name = "96859"
 //  name = "vishal"
-
 
 // console.log(name);
 
