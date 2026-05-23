@@ -86,19 +86,19 @@
 
 
 
-const obj = {
-    name: "Ram",
-    roll_no: 12,
-    sub: "MERN",
-   add: {
-        name: "mohan",
-        roll_no: 11,
-        pincode: 121003,
-   }
-}
+// const obj = {
+//     name: "Ram",
+//     roll_no: 12,
+//     sub: "MERN",
+//    add: {
+//         name: "mohan",
+//         roll_no: 11,
+//         pincode: 121003,
+//    }
+// }
 
-const {name, roll_no, sub} = obj.add
-console.log(name);
+// const {name, roll_no, sub} = obj.add
+// console.log(name);
 
 
 
