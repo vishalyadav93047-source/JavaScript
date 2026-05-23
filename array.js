@@ -221,12 +221,18 @@
 
 
 
+// let num = [1,2,3,4,5];
+// let total = num.reduce((acc, cv)=>{
+//    return acc * cv
+// },1)
+// console.log(total);
+
+
 let num = [1,2,3,4,5];
 let total = num.reduce((acc, cv)=>{
    return acc * cv
 },1)
 console.log(total);
-
 
 
 
