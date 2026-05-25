@@ -9,7 +9,15 @@
 // console.log(mydata);
 
 
-
+// const mydata = new Promise ((resolve, reject)=>{
+//     let user = true;
+    
+//     setTimeout(()=>{
+//         console.log("This is data.........");
+        
+//     },2000);
+// })
+// console.log(mydata);
 
 
 
