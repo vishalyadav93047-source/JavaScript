@@ -24,17 +24,6 @@
 // }
 
 
-//     let marks = 20;
-    
-// if(marks>=60){
-//     console.log("first")
-// }else if (marks>=50 && marks<60){
-//     console.log("second")
-// }else if(marks>=30 && marks<50){
-//     console.log("third")
-// }else{
-//     console.log("fail")
-// }
 
 
 
