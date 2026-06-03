@@ -119,29 +119,29 @@
 
 
 
-let a = 50;
-var b = 40;
-{
-    console.log(b);   //40
-    // console.log(a); //ReferenceError: Cannot access 'a' before initialization
-var b = 90;
-let a = 200;
-function call(){
-    // console.log(b);   //ReferenceError: Cannot access 'b' before initialization
-    console.log(a);  //undefind
-    let b = 55;
-    var a =65;
-    console.log(a);  //65
-    console.log(b);  //55
-}call();
-console.log(a);      //200
-console.log(b);      //90
-}
-console.log(a);      //50
-console.log(b);      //90
-{
-    console.log(a);  //50
-    console.log(b);  //90
-}
+// let a = 50;
+// var b = 40;
+// {
+//     console.log(b);   //40
+//     // console.log(a); //ReferenceError: Cannot access 'a' before initialization
+// var b = 90;
+// let a = 200;
+// function call(){
+//     // console.log(b);   //ReferenceError: Cannot access 'b' before initialization
+//     console.log(a);  //undefind
+//     let b = 55;
+//     var a =65;
+//     console.log(a);  //65
+//     console.log(b);  //55
+// }call();
+// console.log(a);      //200
+// console.log(b);      //90
+// }
+// console.log(a);      //50
+// console.log(b);      //90
+// {
+//     console.log(a);  //50
+//     console.log(b);  //90
+// }
 
 
