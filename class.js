@@ -17,21 +17,21 @@
 
 
 
-class Car {
-    constructor(name, company){
-        this.name = name;
-        this.company = company;
-    }
-    greet(){
-        console.log(`car name ${this.name} and company name ${this.company}`);
+// class Car {
+//     constructor(name, company){
+//         this.name = name;
+//         this.company = company;
+//     }
+//     greet(){
+//         console.log(`car name ${this.name} and company name ${this.company}`);
         
-    }
-}
-const user1 = new Car ("M4", "BMW");
-const user2 = new Car ("M4 compatition", "BMW");
+//     }
+// }
+// const user1 = new Car ("M4", "BMW");
+// const user2 = new Car ("M4 compatition", "BMW");
 
-user1.greet();
-user2.greet();
+// user1.greet();
+// user2.greet();
 
 
 
