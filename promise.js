@@ -103,25 +103,25 @@
 
 
 
-function fetchUser(){
-return new Promise((resolve, reject )=>{
-    setTimeout(()=>{
-        resolve(
-            fetch("https://jsonplaceholder.typicode.com/posts")
+// function fetchUser(){
+// return new Promise((resolve, reject )=>{
+//     setTimeout(()=>{
+//         resolve(
+//             fetch("https://jsonplaceholder.typicode.com/posts")
             
-        )
-    },3000)
-})
-}
-async function getdata(){
-    try{
-    console.log("Leading ....... ");
-    let user = await fetchUser();
-    let data = await user.json()
-    console.log(data);
-    }
-    catch(err){
-        console.log(err);    
-    }
-}
-getdata();
+//         )
+//     },3000)
+// })
+// }
+// async function getdata(){
+//     try{
+//     console.log("Leading ....... ");
+//     let user = await fetchUser();
+//     let data = await user.json()
+//     console.log(data);
+//     }
+//     catch(err){
+//         console.log(err);    
+//     }
+// }
+// getdata();
