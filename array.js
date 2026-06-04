@@ -228,12 +228,12 @@
 // console.log(total);
 
 
-// let num = [1,2,3,4,5];
+let num = [1,2,3,4,5];
 
-// let total = num.reduce((acc, cv)=>{
-//    return acc + cv
-// },0)
-// console.log(total);
+let total = num.reduce((acc, cv)=>{
+   return acc + cv
+},0)
+console.log(total);
 
 
 
