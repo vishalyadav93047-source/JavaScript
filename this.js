@@ -1,16 +1,16 @@
-// const A = { 
-//      name : "Gaurav", 
-//      roll : "112",
+const A = { 
+     name : "Gaurav", 
+     roll : "112",
  
-//      callback : function(){      
-//            arrow=()=>{ 
+     callback : function(){      
+           arrow=()=>{ 
  
-//             console.log(this); 
-//         }    
-//              arrow(); 
-//      } } 
+            console.log(this); 
+        }    
+             arrow(); 
+     } } 
  
-// A.callback(); 
+A.callback(); 
 
 
 
