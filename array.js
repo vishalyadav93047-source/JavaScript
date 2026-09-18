@@ -234,27 +234,3 @@ let total = num.reduce((acc, cv)=>{
    return acc + cv
 },0)
 console.log(total);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

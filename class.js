@@ -33,7 +33,3 @@
 // user1.greet();
 // user2.greet();
 
-
-
-
-
